@@ -1,0 +1,17 @@
+{
+  "name": "mmm-interestrates",
+  "version": "1.0.0",
+  "description": "MagicMirror module that displays configured FRED interest rates with hourly updates and trend coloring.",
+  "main": "MMM-InterestRates.js",
+  "scripts": {
+    "lint": "echo 'No lint task configured'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": [
+    "MagicMirror",
+    "FRED",
+    "interest-rates"
+  ],
+  "author": "",
+  "license": "MIT"
+}

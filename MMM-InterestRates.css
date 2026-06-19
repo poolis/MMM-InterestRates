@@ -1,0 +1,50 @@
+.mmm-interest-rates {
+  min-width: 260px;
+}
+
+.mmm-interest-rates__title {
+  margin-bottom: 8px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mmm-interest-rates__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mmm-interest-rates__row td {
+  padding: 2px 0;
+}
+
+.mmm-interest-rates__label {
+  padding-right: 16px;
+  text-align: left;
+}
+
+.mmm-interest-rates__value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.mmm-interest-rates__trend-up {
+  color: #d64545;
+}
+
+.mmm-interest-rates__trend-down {
+  color: #30a14e;
+}
+
+.mmm-interest-rates__trend-flat,
+.mmm-interest-rates__trend-unknown {
+  color: #dddddd;
+}
+
+.mmm-interest-rates__delta {
+  margin-left: 4px;
+}
+
+.mmm-interest-rates__updated {
+  margin-top: 8px;
+  text-align: right;
+}

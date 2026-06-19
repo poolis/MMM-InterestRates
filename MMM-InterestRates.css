@@ -6,9 +6,7 @@
   margin-bottom: 8px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  font-family: "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
-  font-size: 1.15em !important;
-  font-weight: 600;
+  font-size: 1.15em;
 }
 
 .mmm-interest-rates__table {
@@ -23,17 +21,13 @@
 .mmm-interest-rates__label {
   padding-right: 16px;
   text-align: left;
-  font-family: "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
   font-size: 1.05em;
-  font-weight: 500;
 }
 
 .mmm-interest-rates__value {
   text-align: right;
   font-variant-numeric: tabular-nums;
-  font-family: "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
   font-size: 1.5em;
-  font-weight: 500;
   line-height: 1.2;
   white-space: nowrap;
 }

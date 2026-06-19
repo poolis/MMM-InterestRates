@@ -11,12 +11,15 @@ Module.register("MMM-InterestRates", {
       {
         seriesId: "PRIME",
         label: "Prime Rate"
+      },
+      {
+        seriesId: "DGS10",
+        label: "10-Year Treasury Rate"
       }
     ],
     decimals: 2,
     showTrendDelta: true,
-    showLastUpdated: true,
-    title: "Interest Rates"
+    showLastUpdated: true
   },
 
   start: function () {
@@ -76,13 +79,6 @@ Module.register("MMM-InterestRates", {
       wrapper.classList.add("dimmed", "light", "small");
       wrapper.innerText = "No rate data available.";
       return wrapper;
-    }
-
-    if (this.config.title) {
-      var title = document.createElement("div");
-      title.className = "mmm-interest-rates__title small bright";
-      title.innerText = this.config.title;
-      wrapper.appendChild(title);
     }
 
     var table = document.createElement("table");

@@ -9,10 +9,6 @@ Module.register("MMM-InterestRates", {
         label: "Federal Funds Effective Rate"
       },
       {
-        seriesId: "SOFR",
-        label: "Secured Overnight Financing Rate"
-      },
-      {
         seriesId: "PRIME",
         label: "Prime Rate"
       }
@@ -140,7 +136,7 @@ Module.register("MMM-InterestRates", {
       return "--";
     }
 
-    return value.toFixed(this.config.decimals);
+    return value.toFixed(this.config.decimals) + "%";
   },
 
   formatSignedDelta: function (delta) {

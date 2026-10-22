@@ -137,10 +137,11 @@ Module.register("MMM-InterestRates", {
 
   formatSignedDelta: function (delta) {
     if (typeof delta !== "number" || !isFinite(delta)) {
-      return "0.00";
+      delta = 0;
     }
 
-    var sign = delta > 0 ? "+" : "";
+    // Use a non-breaking space in place of +/- for zero so values stay aligned
+    var sign = delta > 0 ? "+" : delta < 0 ? "" : "\u00A0";
     return sign + delta.toFixed(this.config.decimals);
   },
 
